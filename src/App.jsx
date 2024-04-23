@@ -19,6 +19,8 @@ import OurBlogs from './OurBlogs';
 import Footer from './Footer';
 import Cursor from './Cursor';
 import ContactSectionFirst from './ContactSectionFirst';
+import AboutSectionHome from './AboutSectionHome';
+import ProductsSection from './ProductsSection';
 
 function App() {
   return (
@@ -36,8 +38,9 @@ function App() {
       </Switch> */}
       <Header/>
       <Banner/>
-      {/* <AboutUs/> */}
       <OurServices/>
+      <AboutSectionHome/>
+      <ProductsSection/>
       <Parallex/>
       <OurProjects/>
       <Client/>

@@ -112,6 +112,12 @@ h3 a {
 h3 a:hover {
   color: #1388d7;
 }
+h3 .title:hover {
+  color: black;
+}
+h3 .title {
+  color: black!important;
+}
 h3 a:active {
   color: #1388d7;
 }
