@@ -23,23 +23,8 @@ import AboutSectionHome from './AboutSectionHome';
 import ProductsSection from './ProductsSection';
 import FooterNew from './FooterNew';
 function App() {
-  useEffect(() => {
-    <Cursor />
-  }, []);
   return (
     <div>
-      {/* <PageLoading/> */}
-      {/* <Router>
-        <Switch>
-          <Route path="/" component={Home}></Route>
-          <Route path="/src/AboutUs" component={AboutUs}></Route>
-          <Route></Route>
-        </Switch>
-      </Router> */}
-      {/* <Switch>
-        <Route path='/' Component={AboutUs}/>
-      </Switch> */}
-
       <Header />
       <Banner />
       <OurServices />
@@ -51,9 +36,7 @@ function App() {
       <Testimonial />
       <OurBlogs />
       <FooterNew/>
-      {/* <Footer /> */}
 
-      {/* <ScrollTop/> */}
     </div>
   )
 }

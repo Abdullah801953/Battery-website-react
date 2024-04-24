@@ -12,7 +12,7 @@ function FooterNew() {
                                 <a href="index.html">
                                     <img src="/src/img/icons/footer-logo.png" alt="image" className="footer-logo" />
                                 </a>
-                                <p className="text-light">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
+                                <p className="text-light text-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots</p>
                                 <ul className="footer-info-list">
                                     <li>
                                         <span className="icon">
@@ -36,7 +36,7 @@ function FooterNew() {
                             </div>
                             <div className="col-lg-2 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s" style={{ visibility: 'visible', animationDuration: '0.5s', animationDelay: '0.5s', animationName: 'fadeInUp' }}>
                                 <h3 className="footer-title">Quick links</h3>
-                                <ul className="footer-menu">
+                                <ul className="footer-menu-quick-link">
                                     <li><a href="about.html">About Us</a></li>
                                     <li><a href="services.html">Service</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
@@ -47,9 +47,7 @@ function FooterNew() {
                             <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.7s" style={{ visibility: 'visible', animationDuration: '0.5s', animationDelay: '0.7s', animationName: 'fadeInUp' }}>
                                 <h3 className="footer-title">More Service</h3>
                                 <ul className="footer-menu">
-                                    <li>
-                                        <a href="service-details.html"><i className="fa-solid fa-angles-right" /> ProBuild Solutions</a>
-                                    </li>
+                                  
                                     <li>
                                         <a href="service-details.html"><i className="fa-solid fa-angles-right" /> MasterCraft Builders</a>
                                     </li>
@@ -65,30 +63,41 @@ function FooterNew() {
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s" style={{ visibility: 'visible', animationDuration: '0.5s', animationDelay: '0.9s', animationName: 'fadeInUp' }}>
-                                <h3 className="footer-title">Latest Blog</h3>
-                                <div className="footer-post-list">
-                                    <div className="footer-single-post">
-                                        <div className="thumb">
-                                            <a href="blog-details.html" className="d-block h-100">
-                                                <img src="/src/img/icons/1.jpg" alt="image" />
-                                            </a>
-                                        </div>
-                                        <div className="content">
-                                            <h4 className="title"><a href="blog-details.html">Contrary to popular belief, Lorem Ipsum is not simply random text many kindsmanontrary to popular belief Lorem Ipsum.</a></h4>
-                                            <span>jun 12, 2024</span>
-                                        </div>
-                                    </div>{/* /footer-single-post */}
-                                    <div className="footer-single-post">
-                                        <div className="thumb">
-                                            <a href="blog-details.html" className="d-block h-100">
-                                                <img src="/src/img/icons/2.jpg" alt="image" />
-                                            </a>
-                                        </div>
-                                        <div className="content">
-                                            <h4 className="title"><a href="blog-details.html">Transforming Spaces Inspiring, Lorem Ipsum is not simply random text many kindsmanontrary to popular belief Lorem Ipsum.</a></h4>
-                                            <span>jun 12, 2024</span>
-                                        </div>
-                                    </div>{/* /footer-single-post */}
+                                <h3 className="footer-title">Social Links</h3>
+                                <div className="container">
+                                    
+                                    <div className="social-buttons">
+                                        {/* facebook  Button */}
+                                        <a href="http://www.facebook.com" target="blank" className="social-margin">
+                                            <div className="social-icon facebook">
+                                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
+                                        
+                                        {/* LinkedIn Button */}
+                                    
+                                        <a href="http://linkedin.com/" target="blank" className="social-margin">
+                                            <div className="social-icon linkedin">
+                                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
+                                      
+                                        {/* Youtube Button */}
+                                        <a href="http://youtube.com/" target="blank" className="social-margin">
+                                            <div className="social-icon youtube">
+                                             
+                                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
+                                     
+                                   
+                                        {/* TwitterButton */}
+                                        <a href="http://twitter.com/" target="blank" className="social-margin">
+                                            <div className="social-icon twitter">
+                                            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
