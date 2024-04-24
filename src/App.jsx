@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import {BrowserRouter} from "react-router-dom";
 // import {Route,Switch} from "react-router-dom";
-import React from 'react'
+import React, { useEffect } from 'react'
 import Header from './Header'
 import Banner from './Banner';
 import PageLoading from './PageLoading';
@@ -21,8 +21,10 @@ import Cursor from './Cursor';
 import ContactSectionFirst from './ContactSectionFirst';
 import AboutSectionHome from './AboutSectionHome';
 import ProductsSection from './ProductsSection';
-
 function App() {
+  useEffect(() => {
+    <Cursor />
+  }, []);
   return (
     <div>
       {/* <PageLoading/> */}
@@ -36,18 +38,19 @@ function App() {
       {/* <Switch>
         <Route path='/' Component={AboutUs}/>
       </Switch> */}
-      <Header/>
-      <Banner/>
-      <OurServices/>
-      <AboutSectionHome/>
-      <ProductsSection/>
-      <Parallex/>
-      <OurProjects/>
-      <Client/>
-      <Testimonial/>
-      <OurBlogs/>
-      <Footer/>
-      <Cursor/>
+
+      <Header />
+      <Banner />
+      <OurServices />
+      <AboutSectionHome />
+      <ProductsSection />
+      <Parallex />
+      <OurProjects />
+      <Client />
+      <Testimonial />
+      <OurBlogs />
+      <Footer />
+
       {/* <ScrollTop/> */}
     </div>
   )

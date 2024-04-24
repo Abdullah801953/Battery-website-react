@@ -75,7 +75,7 @@ product-4 .single-product-img.green {
     text-transform: uppercase;
 }
 .product-name > a {
-    color: #fff;
+    color:black;
     text-align: center;
 }
 .price-box {
@@ -168,5 +168,25 @@ product-4 .single-product-img.green {
     height: auto;
     overflow: hidden;
     padding: 30px;
-    width: 50%;
+    width: 100%;
+}
+.single-product.single-product-2 {
+    border: medium none;
+    text-align: left;
+}
+.product-area-3 .product-content {
+    background-color: transparent;
+    padding: 10px 10px 20px;
+}
+.product-content {
+    margin-bottom: 10px;
+}
+.product-name {
+    color: #444;
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
 }
