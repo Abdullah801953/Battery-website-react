@@ -21,6 +21,7 @@ import Cursor from './Cursor';
 import ContactSectionFirst from './ContactSectionFirst';
 import AboutSectionHome from './AboutSectionHome';
 import ProductsSection from './ProductsSection';
+import FooterNew from './FooterNew';
 function App() {
   useEffect(() => {
     <Cursor />
@@ -49,7 +50,8 @@ function App() {
       <Client />
       <Testimonial />
       <OurBlogs />
-      <Footer />
+      <FooterNew/>
+      {/* <Footer /> */}
 
       {/* <ScrollTop/> */}
     </div>
