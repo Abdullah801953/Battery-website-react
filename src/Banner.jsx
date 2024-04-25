@@ -9,7 +9,7 @@ function Banner() {
             className="item bg-img cover-background theme-overlay-dark-blue"
             data-overlay-dark="55"
             // data-background="/src/img/banner/slide-01.jpg"
-            style={{ backgroundImage: `url(${'/src/img/banner/slide-01.jpg'})`}}
+            style={{ backgroundImage: `url(${'src/img/banner/battery-slide1.jpg'})`}}
           >
             <div className="container h-100">
               <div className="d-table w-100 h-100">
@@ -43,7 +43,7 @@ function Banner() {
             className="item bg-img cover-background theme-overlay-dark-blue"
             data-overlay-dark="55"
             // data-background="img/banner/slide-02.jpg"
-            style={{ backgroundImage: `url(${'/src/img/banner/slide-02.jpg'})`}}
+            style={{ backgroundImage: `url(${'src/img/banner/battery-slide2.jpg'})`}}
           >
             <div className="container h-100">
               <div className="d-table w-100 h-100">
@@ -74,7 +74,7 @@ function Banner() {
             className="item bg-img cover-background theme-overlay-dark-blue"
             data-overlay-dark="55"
             // data-background="img/banner/slide-03.jpg"
-            style={{ backgroundImage: `url(${'/src/img/banner/slide-03.jpg'})`}}
+            style={{ backgroundImage: `url(${'src/img/banner/battery-slide3.jpg'})`}}
           >
             <div className="container h-100">
               <div className="d-table w-100 h-100">

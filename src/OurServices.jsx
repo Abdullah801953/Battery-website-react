@@ -3,7 +3,7 @@ import ChooseUs from "./ChooseUs";
 function OurServices() {
   return (
     <div>
-      <section className="bg-light" id="service">
+      <section className="bg-light" id="service" style={{height:"30vw",padding:"28px 0",marginTop:"7vw"}}>
         <div className="container">
           <div
             className="sec-title text-center wow fadeIn"

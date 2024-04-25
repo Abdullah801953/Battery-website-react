@@ -70,13 +70,7 @@ function AboutSectionHome() {
               </div>
               <div className="pt-2-3 border-top border-color-extra-light-gray d-sm-flex align-items-center">
                 <a className="btn-style2 medium" href="about.html">Read More</a>
-                <div className="d-flex align-items-center mt-4 mt-sm-0 ms-sm-2-3">
-                  <div className="flex-shrink-0"></div>
-                  <div className="flex-grow-1 ms-3">
-                    <p className="mb-0">Call us for help</p>
-                    <h4 className="h5 mb-0">(+1) 23 456 789</h4>
-                  </div>
-                </div>
+               
               </div>
             </div>
           </div>

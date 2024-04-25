@@ -1,6 +1,6 @@
-import React from 'react'
-
+import React, { useState } from 'react'
 function CrouselItems() {
+
     return (
         <>
             <div className="product-area-3 product-4 area-padding">
@@ -10,16 +10,7 @@ function CrouselItems() {
                     </div>
                     <div className="row">
                         <div className="best-product best-indicator owl-carousel owl-theme owl-loaded">
-                            {/* Start single product */}
-                            {/* End single product */}
-                            {/* Start single product */}
-                            {/* End single product */}
-                            {/* Start single product */}
-                            {/* End single product */}
-                            {/* Start single product */}
-                            {/* End single product */}
-                            {/* Start single product */}
-                            {/* End single product */}
+
                             <div className="owl-stage-outer">
                                 <div className="owl-stage" style={{ transform: 'translate3d(-4095px, 0px, 0px)', transition: 'all 0.25s ease 0s', width: '5850px' }}>
                                     <div className="owl-item cloned" style={{ width: '585px', marginRight: '0px' }}>

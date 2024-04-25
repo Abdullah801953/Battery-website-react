@@ -47,23 +47,7 @@ function OurBlogs() {
                     Read More &#10230;
                   </a>
                 </div>
-                <div className="card-footer bg-white px-2-0 px-xl-2-4 py-3 border-color-light-gray">
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="text-capitalize font-weight-700">
-                      <i className="ti-user pe-2"></i>
-                      <a
-                        href="blog-list.html"
-                        title="Posts by admin"
-                        rel="author"
-                      >
-                        admin
-                      </a>
-                    </div>
-                    <span>
-                      <i className="ti-comment-alt me-2"></i>0
-                    </span>
-                  </div>
-                </div>
+               
               </article>
             </div>
             <div
@@ -98,23 +82,7 @@ function OurBlogs() {
                     Read More &#10230;
                   </a>
                 </div>
-                <div className="card-footer bg-white px-2-0 px-xl-2-4 py-3 border-color-light-gray">
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="text-capitalize font-weight-700">
-                      <i className="ti-user pe-2"></i>
-                      <a
-                        href="blog-list.html"
-                        title="Posts by admin"
-                        rel="author"
-                      >
-                        admin
-                      </a>
-                    </div>
-                    <span>
-                      <i className="ti-comment-alt me-2"></i>0
-                    </span>
-                  </div>
-                </div>
+               
               </article>
             </div>
             <div
@@ -149,23 +117,7 @@ function OurBlogs() {
                     Read More &#10230;
                   </a>
                 </div>
-                <div className="card-footer bg-white px-2-0 px-xl-2-4 py-3 border-color-light-gray">
-                  <div className="d-flex justify-content-between align-items-center">
-                    <div className="text-capitalize font-weight-700">
-                      <i className="ti-user pe-2"></i>
-                      <a
-                        href="blog-list.html"
-                        title="Posts by admin"
-                        rel="author"
-                      >
-                        admin
-                      </a>
-                    </div>
-                    <span>
-                      <i className="ti-comment-alt me-2"></i>0
-                    </span>
-                  </div>
-                </div>
+               
               </article>
             </div>
           </div>

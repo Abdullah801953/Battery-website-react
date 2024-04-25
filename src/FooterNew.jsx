@@ -70,7 +70,7 @@ function FooterNew() {
                                         {/* facebook  Button */}
                                         <a href="http://www.facebook.com" target="blank" className="social-margin">
                                             <div className="social-icon facebook">
-                                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                                                <i className="fa-brands fa-facebook" aria-hidden="true"></i>
                                             </div>
                                         </a>
                                         
@@ -78,7 +78,7 @@ function FooterNew() {
                                     
                                         <a href="http://linkedin.com/" target="blank" className="social-margin">
                                             <div className="social-icon linkedin">
-                                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                                            <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
                                             </div>
                                         </a>
                                       
@@ -86,7 +86,7 @@ function FooterNew() {
                                         <a href="http://youtube.com/" target="blank" className="social-margin">
                                             <div className="social-icon youtube">
                                              
-                                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                                                <i className="fa-brands fa-youtube" aria-hidden="true"></i>
                                             </div>
                                         </a>
                                      
@@ -94,7 +94,7 @@ function FooterNew() {
                                         {/* TwitterButton */}
                                         <a href="http://twitter.com/" target="blank" className="social-margin">
                                             <div className="social-icon twitter">
-                                            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                                            <i className="fa-brands fa-x-twitter" aria-hidden="true"></i>
                                             </div>
                                         </a>
                                     </div>

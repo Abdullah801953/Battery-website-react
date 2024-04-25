@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import "./css/plugins.css";
 import "./css/styles.css";
-import "./quform/css/base.css";    
+import "./quform/css/base.css";
 import "./search/search.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -15,17 +15,21 @@ import AboutPageTitle from "./PageTitle";
 import AboutSection from "./AboutSection";
 import SaveMoneySection from "./SaveMoneySection";
 import TestimonialsSection from "./TestimonialSection";
+import FooterNew from "./FooterNew";
 
 function AboutUs() {
+  useEffect(() => {
+    <Cursor />
+  })
   return (
     <>
-      <Header/>
+      <Header />
       <AboutPageTitle />
       <AboutSection />
       <SaveMoneySection />
       <TestimonialsSection />
       <OurTeam />
-      <Footer />
+      <FooterNew />
       <Cursor />
     </>
   );
