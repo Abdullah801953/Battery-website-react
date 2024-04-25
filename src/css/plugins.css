@@ -1,4 +1,5 @@
-@charset "UTF-8";
+
+
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&amp;display=swap");
 
 /*!
@@ -43313,4 +43314,14 @@ a:active {
 .footer-logo {
   position: relative;
   right: 42px;
+}
+.new-text {
+    background: #47b729 none repeat scroll 0 0;
+    color: #fff;
+    padding: 2px 12px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 999;
 }

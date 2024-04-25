@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import {BrowserRouter} from "react-router-dom";
-// import {Route,Switch} from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import React, { useEffect } from 'react'
 import Header from './Header'
 import Banner from './Banner';
@@ -22,6 +21,7 @@ import ContactSectionFirst from './ContactSectionFirst';
 import AboutSectionHome from './AboutSectionHome';
 import ProductsSection from './ProductsSection';
 import FooterNew from './FooterNew';
+import SlickCrousel from './SlickCrousel';
 function App() {
   return (
     <div>
@@ -35,8 +35,7 @@ function App() {
       <Client />
       <Testimonial />
       <OurBlogs />
-      <FooterNew/>
-
+      <FooterNew />
     </div>
   )
 }
